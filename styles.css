@@ -1,0 +1,77 @@
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFB6C1; /* Светло-розовый фон */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #app {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1, h2, p {
+    color: #9ACD32; /* Салатовый цвет текста */
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #9ACD32;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Адаптация для мобильных устройств */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 16px;
+    }
+    button {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }

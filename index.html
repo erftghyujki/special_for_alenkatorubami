@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Валентинка для @Torubami</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Начальная страница -->
+    <div id="start-page" class="page">
+      <h1>Специально для @Torubami 💖</h1>
+      <p>Тыкни на кнопку, чтобы получить валентинку!</p>
+      <button onclick="nextPage()">Тык сюда!</button>
+    </div>
+
+    <!-- Страница с сообщением -->
+    <div id="message-page" class="page" style="display: none;">
+      <h2>Ты лучшая! 💕</h2>
+      <p>Спасибо, что ты до сих пор общаешься со мной!</p>
+      <img src="images/photoraz.jpg" alt="Cute heart">
+      <button onclick="nextPage()">Дальше!</button>
+    </div>
+
+    <!-- Финальная страница -->
+    <div id="final-page" class="page" style="display: none;">
+      <h1>С Днём Валентина! 💘</h1>
+      <p>Ты самая крутая!!!!!!!!! 😘</p>
+      <img src="images/photodva.jpg" alt="Happy Valentine">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
